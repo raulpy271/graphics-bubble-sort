@@ -1,6 +1,6 @@
 ## graphics-bubble-sort
-<p>Algorithm that makes sorting graphically.</p>
-<p>The purpose is to Demonstrate how the bubble sort works.</p>
+<p>Algorithm that makes sorting graphically.
+The purpose is to Demonstrate how the bubble sort works.</p>
 ---
 [run](https://raulpy271.github.io/graphics-bubble-sort/) | [code](https://github.com/raulpy271/graphics-bubble-sort/blob/master/script.js)
 [código comentado em português](https://github.com/raulpy271/graphics-bubble-sort/blob/master/commented-code-pt.html)
