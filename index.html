@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>graphics-sort</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <div class="rods"></div><br>
+    <div class="buttons">
+      <input type="button" onclick="bubblesort()" value="SORT ASCENDING!" id="button">
+      <input type="button" onclick="shuffle()" value="SHUFFLE!" id="button">
+      <input type="button" onclick="bubblesort(false)" value="SORT DESCENDING!" id="button">
+    </div> <br>
+    <div class="form">
+      <form name="form" method="GET">
+        number of rods: <input type="number" name="rods" min="2" max="20" id='formrods'>
+        velocity: <input type="number" name="velocity" min="1" max="5000" id='formms'>
+        <input type="submit" value="save" id='submit'>
+      </form>
+    </div>
+
+    <script src="script.js" onload="start()"></script>
+
+  </body>
+</html>
